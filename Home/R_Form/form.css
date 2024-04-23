@@ -1,0 +1,28 @@
+body{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1px;
+    text-align: center;
+}
+
+fieldset{
+    max-width: fit-content;
+    margin: 0 auto;
+    border-color: black;
+}
+
+.bg{
+    background-color: rgb(212, 255, 237);
+}
+
+input[id="btn"]{
+    background-color: rgb(13, 141, 64);
+    cursor: pointer;
+    color: white;/*color on the button*/
+    border-radius: 8px;
+}
+
+.b{
+    background-color: blueviolet;
+    cursor: pointer;
+}

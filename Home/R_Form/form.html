@@ -1,0 +1,76 @@
+<!--
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+    <script>
+        function newFunction(){
+        var element = document.getElementById(" form_id ");
+         element.reset()
+      }
+    </script>
+    <div class="bg">
+        <h2 class="Home">Fill the Information</h2>
+        <div>Name: *
+              <input type="text" required name="name" placeholder="Your Full Name">
+        </div><br>
+        <div>Address: <input type="text"></div><br>
+        <div class="c">
+            Contact Details:
+            <fieldset>
+                Mob NO: <input type="number" name="mob" id="m"><br><br>
+                E-Mail: <input type="email" required placeholder="ttn@coe.sveri.ac.in" name="email" id="e">
+            </fieldset>
+        </div><br>
+        <div>
+            <label>Password:<input type="password"></label><br>
+            <label>Fill your password:<input type="password"></label>
+        </div><br>
+        <input type = "button" onclick = "newFunction()" value = "Reset" >
+        <input type="submit" value="Submit" id="btn" onclick="location.href='/Home.html';">
+    </div>
+</body>
+</html>
+
+
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css">
+    </head>
+<body>
+    <script>
+        function newFunction(){
+          var element = document.getElementById(" form_id ");
+           element.reset()
+        }
+     </script>
+     <div class="bg">
+        <h2 class="Home">Fill the Information</h2>
+        <form id=" form_id ">
+            Name : <input type="text" name="sname"> <br><br>
+            Address: <input type="text"><br>
+
+            Contact Details:
+            <fieldset>
+                Mob No: <input type="number" name="mob" id="m"><br><br>
+                E-Mail: <input type="email" required placeholder="ttn@coe.sveri.ac.in" name="email" id="e">
+            </fieldset><br>
+            <label>Password:<input type="password"></label><br>
+            <label>Fill your password:<input type="password"></label><br><br>
+            <input type = "button" onclick = "newFunction()" value = "Reset" id="btn">
+            <input type="submit" value="Submit" id="btn" onclick="location.href='/Home.html';">
+
+         </form>
+     </div>
+    
+</body>
+</html>

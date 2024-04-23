@@ -1,0 +1,63 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+/* Header styles */
+header {
+  background-color: #57b269;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+/* Main content styles */
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+.main-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.main-content p {
+  font-size: 18px;
+}
+
+
+.container {
+  text-align: center; /* Optional: Centers the content */
+}
+
+.container > div {
+  display: inline-block;
+  margin: 10px; /* Optional: Adjust margin as needed */
+}
+
+
+
+
+/* Footer styles */
+footer {
+  background-color: #44a357;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
